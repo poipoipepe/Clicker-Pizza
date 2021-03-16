@@ -10,36 +10,37 @@
         width: 70em;
         margin: auto;
         font-family: 'Courier New', Courier, monospace;
-      }
-      .center-button {
-        display: flex;
-        justify-content: center;
-      }
-      button{
-        margin-right: 20px;
-        margin-left: auto;
-      }
-      #alertaBotao:hover {
-        transition: all 200ms;
-        background-color: #ffffff;
-        box-shadow: 4px 4px teal;
-        position: relative;
-        bottom: 1px;
-        right: 1px;
-        background: linear-gradient(to right ,#ffffff86 15%, #78eefb86);
-      }
+}
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin-right: 20px;
+  margin-left: auto;
+}
+#alertaBotao:hover {
+  transition: all 200ms;
+  background-color: #ffffff;
+  box-shadow: 4px 4px teal;
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  background: linear-gradient(to right ,#ffffff86 15%, #78eefb86);
+}
      
-      #alertaBotao{
-        transition: all 200ms;
-        width: 130px;
-        height: 30px;
-        color: #000000;
-        border-color: #000000;
-        position: relative;
-        border-radius: 9999em;
-        margin-left: 0 auto;
-        margin-right: auto;
-        font-size: 17px;
-        font-family : inherit;
-        background: linear-gradient(to left ,#ffffff86 15%, #78eefb86);
-        border-width: 1px;
+#alertaBotao{
+  transition: all 200ms;
+  width: 130px;
+  height: 30px;
+  color: #000000;
+  border-color: #000000;
+  position: relative;
+  border-radius: 9999em;
+  margin-left: 0 auto;
+  margin-right: auto;
+  font-size: 17px;
+  font-family : inherit;
+  background: linear-gradient(to left ,#ffffff86 15%, #78eefb86);
+  border-width: 1px;
+}
