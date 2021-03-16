@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #alerta{
+        color: #004085;
+        background-color: #cce5ff;
+        border-color: #b8daff;
+        position: relative;
+        padding: .75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        width: 70em;
+        margin: auto;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      .center-button {
+        display: flex;
+        justify-content: center;
+      }
+      button{
+        margin-right: 20px;
+        margin-left: auto;
+      }
+      #alertaBotao:hover {
+        transition: all 200ms;
+        background-color: #ffffff;
+        box-shadow: 4px 4px teal;
+        position: relative;
+        bottom: 1px;
+        right: 1px;
+        background: linear-gradient(to right ,#ffffff86 15%, #78eefb86);
+      }
+     
+      #alertaBotao{
+        transition: all 200ms;
+        width: 130px;
+        height: 30px;
+        color: #000000;
+        border-color: #000000;
+        position: relative;
+        border-radius: 9999em;
+        margin-left: 0 auto;
+        margin-right: auto;
+        font-size: 17px;
+        font-family : inherit;
+        background: linear-gradient(to left ,#ffffff86 15%, #78eefb86);
+        border-width: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="alerta" role="alert">
+      <p>
+      Olá, esse jogo é um Tycoon e por isso pode ser um pouco confuso no início.
+      O objetivo principal desse jogo é aprimorar seu comércio para que o mesmo gere mais dinheiro,
+      e com isso você conseguirá mais formas de aprimorar, para ganhar mais dinheiro, e assim o ciclo se repete
+      (basicamente um simulador do capitalismo). </p>
+      <div class="center-button">
+        <button onclick="apertarBotaoAlerta()" id="alertaBotao">Continuar</button>
+      </div>
+    </div>
+    <p></p>
+  </body>
+  <script src="pizzaria.js"></script>
+</html>
