@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<style>
+    
+body{
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+  padding-top: 1em;
+  text-align: center;
+  background-color: burlywood;
+  margin-top: -20px;
+  margin-left: -15em;
+  margin-right: -13em;
+  font-size: 20px;
+}
+
+
+header img{
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+}
+
+#nome-pizzaria{
+    font-family: 'Oswald', sans-serif;
+}
+
+#comecar{
+    font-size: 30px;
+    border-color: black;
+    border-radius: 2%;
+    background-color: rgba(163, 106, 60, 0.658);
+    font-family: 'Oswald', sans-serif;
+}
+</style>
+
+<body>
+    
+    <header>
+        <img src="imagens/pedaco-de-pizza.png">
+        <h1>Idle Pizza</h1><br>
+    </header>
+
+
+    <main>
+        <label for="nome-pizzaria">Qual será o nome da pizzaria?</label><br><br>
+        <input type="text" id="nome-pizzaria"><br><br>
+        <button id="comecar">Começar!</button>
+    </main>
+
+    <script src="pizzaria.js"></script>
+</body>
+</html>
