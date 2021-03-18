@@ -1,24 +1,27 @@
 #alerta{
-        color: #004085;
-        background-color: #cce5ff;
-        border-color: #b8daff;
-        position: relative;
-        padding: .75rem 1.25rem;
-        margin-bottom: 1rem;
-        border: 1px solid transparent;
-        border-radius: .25rem;
-        width: 70em;
-        margin: auto;
-        font-family: 'Courier New', Courier, monospace;
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  width: 70em;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
 }
+
 .center-button {
   display: flex;
   justify-content: center;
 }
+
 button{
   margin-right: 20px;
   margin-left: auto;
 }
+
 #alertaBotao:hover {
   transition: all 200ms;
   background-color: #ffffff;
@@ -43,4 +46,59 @@ button{
   font-family : inherit;
   background: linear-gradient(to left ,#ffffff86 15%, #78eefb86);
   border-width: 1px;
+}
+
+body{ 
+    background-image: url(imagens/fundo.jpg);
+    font-family: 'Oswald', sans-serif;  
+}
+
+#main1pag{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 20em; 
+    margin-right: 20em;
+    position: absolute;
+    top: 9em;
+    right: 0;
+    left: 0;
+    padding: 4em 0em;
+    font-size: 22px;
+    background-color: rgba(255, 170, 170, 0.52);
+}
+
+header{
+  padding-top: 1em;
+  text-align: center;
+  background-color: rgb(212, 148, 63);
+  margin-top: -20px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-size: 20px;
+}
+
+header img{
+    width: 150px;
+    display: inline-block;
+    position: absolute;
+    left: 390px;
+    top: 35px;
+}
+
+#nome-pizzaria{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+
+#comecar{
+    font-size: 30px;
+    border-color: rgba(0, 0, 0, 0.65);
+    border-radius: 4%;
+    background-color: rgba(255, 115, 0, 0.658);
+    font-family: 'Oswald', sans-serif;
+    position: relative; 
+    left: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
