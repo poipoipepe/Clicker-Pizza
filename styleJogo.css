@@ -53,19 +53,6 @@ body{
     font-family: 'Oswald', sans-serif;  
 }
 
-#main1pag{
-    text-align: center;
-    border: 1px solid black;
-    margin-left: 20em; 
-    margin-right: 20em;
-    position: absolute;
-    top: 9em;
-    right: 0;
-    left: 0;
-    padding: 4em 0em;
-    font-size: 22px;
-    background-color: rgba(255, 170, 170, 0.52);
-}
 
 header{
   padding-top: 1em;
@@ -75,30 +62,17 @@ header{
   margin-left: -8px;
   margin-right: -8px;
   font-size: 20px;
+  height: 100px;
 }
 
 header img{
-    width: 150px;
+    width: 140px;
     display: inline-block;
     position: absolute;
     left: 390px;
-    top: 35px;
+    top: 15px;
 }
 
-#nome-pizzaria{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    font-size: 17px;
-}
-
-#comecar{
-    font-size: 30px;
-    border-color: rgba(0, 0, 0, 0.65);
-    border-radius: 4%;
-    background-color: rgba(255, 115, 0, 0.658);
-    font-family: 'Oswald', sans-serif;
-    position: relative; 
-    left: 10px;
-    padding-right: 50px;
-    padding-left: 50px;
+#titulo{
+  margin-top: 10px;
 }

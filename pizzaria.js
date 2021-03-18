@@ -1,12 +1,22 @@
+novoTitulo = new Object();
+
 function apertarBotaoAlerta() {
     document.getElementById('alerta').style.display = 'none';
 }
 
-botao = document.querySelector('#comecar');
-botao.addEventListener('click', function() {
-    let novoTitulo = document.querySelector('#nome-pizzaria').value;
-    window.location.href = 'jogo.html';
-    for (let i = 0; i < 40; i++) 
-        document.title = novoTitulo;
-});
+// Mudar nome da pagina ao apertar botao
+function mudarNomePag(novoTitulo) {
+    document.getElementById("titulo").innerHTML = novoTitulo;
+}
 
+// Trocar paginas
+function trocarPagina() {
+    const novoTitulo = document.getElementById('nome-pizzaria').value;
+    if(!novoTitulo) {
+        alert("Digite um nome para sua pizzaria!");
+        return;
+    }
+    localStorage.setItem("novoTitulo", novoTitulo);
+    window.location.href = 'jogo.html';
+}
+document.getElementById("titulo").innerHTML = localStorage.getItem("novoTitulo");
