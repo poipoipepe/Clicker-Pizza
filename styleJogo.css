@@ -76,3 +76,30 @@ header img{
 #titulo{
   margin-top: 10px;
 }
+
+button{
+  cursor: pointer;
+}
+
+#pizza button{
+  width: 300px;
+  border-radius: 150px;
+}
+
+#pizza img{
+  width: 300px;
+  margin-left: -10px;
+}
+
+#pizza h2{
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 2px;
+  width: 300px;
+  text-align: center;
+}
+
+#pizza{
+  margin-top: 70px;
+  margin-left: 80px;
+}

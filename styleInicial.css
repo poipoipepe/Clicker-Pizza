@@ -13,7 +13,7 @@ body{
     font-family: 'Oswald', sans-serif;  
 }
 
-#main1pag{
+main{
     text-align: center;
     border: 1px solid black;
     margin-left: 20em; 
@@ -61,4 +61,5 @@ header img{
     left: 10px;
     padding-right: 50px;
     padding-left: 50px;
+    cursor: pointer;
 }
