@@ -103,3 +103,8 @@ button{
   margin-top: 70px;
   margin-left: 80px;
 }
+
+#compras{
+  text-align: right;
+  margin-top: -25%;
+}
