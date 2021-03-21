@@ -84,6 +84,8 @@ button{
 #pizza button{
   width: 300px;
   border-radius: 150px;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 #pizza img{
@@ -105,6 +107,12 @@ button{
 }
 
 #compras{
-  text-align: right;
-  margin-top: -25%;
+  float: right;
+  margin-top: -23%;
+}
+
+#compras strong{
+  font-size: 30px;
+  float: right;
+  margin-left: 15px;
 }
