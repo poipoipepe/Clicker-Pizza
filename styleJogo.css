@@ -116,3 +116,7 @@ button{
   float: right;
   margin-left: 15px;
 }
+
+#compras button{
+  width: 400px;
+}
