@@ -20,6 +20,7 @@
 button{
   margin-right: 20px;
   margin-left: auto;
+  outline: none;
 }
 
 #alertaBotao:hover {
@@ -91,6 +92,16 @@ button{
 #pizza img{
   width: 300px;
   margin-left: -10px;
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 #pizza h2{
@@ -119,4 +130,11 @@ button{
 
 #compras button{
   width: 400px;
+  border-color: #ffffff;
+  border-radius: 5px;
+  padding-top: 5px;
+  color: #ffffff;
+  background-image: url(imagens/madeira-botao.jfif);
+  margin-top: 5px;
+  font-size: 14px;
 }
