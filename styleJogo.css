@@ -138,3 +138,69 @@ button{
   margin-top: 5px;
   font-size: 14px;
 }
+/* section div:first-child {
+  background-color: rgb(255, 136, 0);
+  width: 500px;
+  height: 500px;
+  position: relative;
+  float: left;
+} */
+section{
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+  align-self: center;
+}
+section div:first-child {
+  background-color: rgb(223, 130, 43);
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  z-index: 2;
+}
+.fimTitulo{
+  text-align: center;
+  font-size: 50px;
+  font-family: Didot;
+  margin-bottom: 70px;
+}
+.pizzaFim{
+  margin-top: -100px;
+  width: 500px;
+  margin-left: 600px;
+  position: relative;
+  bottom: 130px;
+}
+
+section p{
+  margin-left: 20px;
+  font-size: 23px;
+  margin-right: 250px;
+}
+
+section button{
+  color:black;
+  background-color: #e6e6e6;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: .25rem;
+  width: 10em;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70px;
+  right: 120px;
+}
+
+section button:hover{
+  transition: all 150ms;
+  background-color: #ffffffda;
+  box-shadow: 0px 0px 2px 2px rgb(32, 32, 32); /*any color you want*/
+}

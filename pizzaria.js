@@ -124,3 +124,17 @@ function cliquePizza(){
     else
         atualizaPizzas.innerHTML = 'Pizzas: ' + Pizzas.toFixed(2);
 }
+
+// Finalizar o jogo
+
+function verify(){
+    if (Pizzas > 10000) {
+        document.getElementById("fimDeJogo").style.display="flex";
+    }
+}
+let veririficar = setInterval(verify, 1000);
+
+function apertarBotaoFim() {
+    document.getElementById("fimDeJogo").style.display = "none";
+    clearInterval(veririficar);
+}
